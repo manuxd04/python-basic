@@ -6,7 +6,20 @@ For å gjøre oppgavene skal du lage en "fork" av repoet. En fork er en kopi av 
 
 ![Lag en fork](fork.png)
 
-Da vil du en kopi av repoet i din egen bruker som du kan pushe til så mye du vil. For å gjøre endringene må du laste ned repoet til din maskin med `clone`. Trykk på "Code"-knappen i ditt og kopier adressen. Den kan du skrive inn i Visual Studio Code eller i git i terminalen:
+Da vil du en kopi av repoet i din egen bruker som du kan pushe til så mye du vil. For å gjøre endringene må du laste ned repoet til din maskin med `clone`. Trykk på "Code"-knappen i ditt og kopier adressen. 
+
+Den kan du skrive inn i Visual Studio Code:
+![Trykk på Clone i VS Code](vscode_clone.png)
+![Paste her](vscode_paste_here.png)
+
+Eller i git i terminalen:
 ```bash
 git clone git@github.com:Anddor/python-basic.git (MED ADRESSEN TIL DITT REPO)
 ```
+
+## Rekkefølge:
+
+* [Variabler og Datatyper](./variables)
+* [Betingelser](./conditionals)
+* [Lister](./lists)
+* [Løkker](./loops)
