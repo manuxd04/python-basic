@@ -2,7 +2,7 @@ import unittest
 
 class AssignmentTask(unittest.TestCase):
     """
-    Skriv ferdig metoden så sier om maybe_number er et tall eller ikke.
+    I denne oppgaven blir ikke variabelen som skal ha navnet på skolen opprettet riktig. Finner du feilen?
 
     """
 
