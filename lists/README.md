@@ -25,14 +25,33 @@ TypeError: unsupported operand type(s) for -: 'list' and 'list'
 
 ## Hente ut
 
-Vi kan hente ut verdier fra listen på `index`, hvilken plassering det har i listen:
+Vi kan hente ut verdier fra listen på `index`, hvilken plassering det har i listen. Merk at den første verdien i listen har plasseringen `0`, ikke `1`. Datamaskiner liker å telle fra null.
+
 ```python
 >>> elever[0]
 'Harry'
 ```
 
-Merk at den første verdien i listen har plasseringen `0`, ikke `1`. Datamaskiner liker å telle fra null.
+Vi kan sjekke om noe er i liste med å skrive `in`:
 
+```python
+>>> "Harry" in elever
+True
+```
+
+```python
+>>> "Gygrid" in elever
+False
+```
+
+HUSK: Siden svaret på `in` er en `bool` kan vi bruke den til alt vi kan gjøre med en bool:
+
+```python
+>>> if "Harry" in elever:
+...     print("Du er en trollmann, Harry!")
+... 
+Du er en trollmann, Harry!
+```
 
 ## Innebygde metoder i Lister
 
