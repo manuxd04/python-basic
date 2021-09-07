@@ -68,7 +68,7 @@ Prøv deg frem med ulike datatyper i Python med en interaktiv sesjon. Hva skjer 
 
 ## Variabler
 
-Ofte trenger vi resultatet av en operasjon til senere, da lagrer vi det i en variabel. Vi lagrer en verdi i Python ved å skrive navnet og verdien på variabelen med `=` mellom:
+Ofte trenger vi resultatet av en operasjon til senere, da lagrer vi det i en variabel. Vi lagrer en verdi i Python ved å skrive en "navnelapp" og verdien den skal inneholde med `=` mellom:
 
 ```python
 navn = "Andreas"
@@ -89,3 +89,7 @@ Variablen kan nå brukes akkurat som om vi skrev verdien, og den har naturlig no
 >>> type(navn)
 <class 'str'>
 ```
+
+## Oppgaver
+
+Gjør de tre oppgavene i denne mappen som handler om variabler og datatyper. Når du er ferdig kan du jobbe videre med codewars: TODO: lenke til collection 
