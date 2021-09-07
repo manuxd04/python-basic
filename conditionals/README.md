@@ -24,7 +24,17 @@ Hvis vi vil legge til støtte for moped også kan vi sjekke flere ting etter hve
 if alder >= 18: 
     print("Du kan ta lappen for bil")
 elif alder >= 16:
-    print("Du kan ta lappen for moped")
+    print("Du kan ta bare ta lappen for moped")
 else:
     print("Du kan i det minste sykle")
+```
+
+Ofte skal vi utløse en eller annen kode om flere ting stemmer samtidig, da kan vi kombinere booleans med `and`:
+
+```python
+if red and green and blue:
+    print("Fargen er hvit")
+elif red and green:
+    print("Fargen er gul!")
+etc.
 ```
