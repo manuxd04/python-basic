@@ -21,6 +21,10 @@ Traceback (most recent call last):
 TypeError: unsupported operand type(s) for -: 'list' and 'list'
 ```
 
+**Forsøk i en interaktiv seksjon, hva gjør ulike operasjoner med en liste?**
+
+## Hente ut
+
 Vi kan hente ut verdier fra listen på `index`, hvilken plassering det har i listen:
 ```python
 >>> elever[0]
