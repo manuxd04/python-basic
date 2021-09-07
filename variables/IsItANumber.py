@@ -1,9 +1,14 @@
 import unittest
 
-class TestStringMethods(unittest.TestCase):
+class IsItANumberTask(unittest.TestCase):
+    """
+    Skriv ferdig metoden så sier om maybe_number er et tall eller ikke.
+
+    """
     def is_a_number(self, maybe_number):
         ## TODO SKRIV KODEN HER
-        pass
+        is_number = False
+        return is_number;
 
     def test_true(self):
         self.assertTrue(self.is_a_number("1"), True)
