@@ -5,25 +5,32 @@ class IsItANumberTask(unittest.TestCase):
     Skriv ferdig metoden så sier om maybe_number er et tall eller ikke.
 
     """
+
+    is_number = False
     def is_a_number(self, maybe_number):
         ## TODO SKRIV KODEN HER
         is_number = False
-        return is_number;
 
     def test_true(self):
-        self.assertTrue(self.is_a_number("1"), True)
+        self.is_a_number("1")
+
+        self.assertTrue(self.is_number, True)
 
     def test_false(self):
-        self.assertTrue(self.is_a_number("Tekst"), False)
+        self.is_a_number("Tekst")
+        self.assertTrue(self.is_number, False)
         
     def test_pi(self):
-        self.assertTrue(self.is_a_number("3.14"), True)
+        self.is_a_number("3.14")
+        self.assertTrue(self.is_number, True)
 
     def test_spaces(self):
-        self.assertTrue(self.is_a_number("3    4"), False)
+        self.is_a_number("3    4")
+        self.assertTrue(self.is_number, False)
     
     def test_untrimmed(self):
-        self.assertTrue(self.is_a_number("3  "), True)
+        self.is_a_number("3  ")
+        self.assertTrue(self.is_number, True)
         
 
 if __name__ == '__main__':
