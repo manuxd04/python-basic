@@ -12,6 +12,12 @@ import unittest
 """
 def bagasje_overvekt(vekt):
     pris = 0
+    
+    overvekt = vekt - 23
+    if (overvekt < 0):
+        overvekt = 0
+    pris * overvekt
+
     return pris
 
 class BaggageCalc(unittest.TestCase):
